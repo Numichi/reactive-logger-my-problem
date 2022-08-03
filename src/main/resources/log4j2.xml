@@ -1,0 +1,13 @@
+<Configuration packages="com.example.demo">
+    <Appenders>
+        <Console name="ExampleLog">
+            <ExamplePlugin/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <AsyncRoot level="info">
+            <AppenderRef ref="ExampleLog"/>
+        </AsyncRoot>
+    </Loggers>
+</Configuration>
